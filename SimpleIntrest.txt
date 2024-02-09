@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class SimpleInterest {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter principle Amounts :");
+        float p= sc.nextFloat();
+        System.out.println("Enter Rate interest :");
+        float r=sc.nextFloat();
+        System.out.println(" Enter time :");
+        float t=sc.nextFloat();
+        float SI=(p*r*t)/100;
+        System.out.println("Simple Interest is :"+SI);
+
+    }
+}
+
+Output:
+Enter principle Amounts :
+5000
+Enter Rate interest :
+6.5
+Enter time :
+4
+Simple Interest is :1300.0
